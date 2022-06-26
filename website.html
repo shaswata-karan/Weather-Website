@@ -10,16 +10,27 @@
 <body>
 
    
-    
+    <div class="bg">
+
+   
     <div class="container">
         <div class="current-info">
+            <div class="place-container">
+                <div class="time-zone" id="time-zone">Asia/Kolkata</div>
+                <div id="country" class="country">IND</div>
+            </div>
             <div class="date-container">
-                <div class="time" id="time">
-                    1:30 <span id="am-pm">PM</span>
-                </div>
-                <div class="date" id="date">
+                <div class="date-time">
+                 
+                 <div class="date" id="date">
                     Saturday,25th June
-                </div>
+                 </div>
+                 <div class="time" id="time">
+                    1:30 <span id="am-pm">PM</span>
+                 </div>
+                 <div class="temp-n" id="temp-n">Night - 25.6&#176; C</div>
+                <div class="temp-d" id="temp-d">Day - 25.6&#176; C</div>
+                 </div>
                 <div class="others" id="current-weather-items">
                     <div class="weather-item">
                         <div>Humidity</div>
@@ -34,11 +45,12 @@
                         <div>3.2</div>
                     </div>
                 </div>
+                <div class="sunrise-sunset" id="sunrise-sunset">
+                    <div>Sunrise</div>
+                    <div>Sunset</div>
+                </div>
             </div>
-            <div class="place-container">
-                <div class="time-zone" id="time-zone">Asia/Kolkata</div>
-                <div id="country" class="country">IND</div>
-            </div>
+            
         </div>
         <div class="future-forecast">
             <div class="today" id="current-temp">
@@ -87,6 +99,7 @@
             </div>
         </div>
     </div>
+ </div> 
     <script src="script.js"></script>
 </body>
 </html>

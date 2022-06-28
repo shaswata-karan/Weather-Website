@@ -22,7 +22,7 @@ body, html
 
 body
 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Serif', serif;
 }
 
 
@@ -57,25 +57,24 @@ body
     font-family: 'Abhaya Libre SemiBold';
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
-    align-items: center;
-    padding-left: 31px;
-    padding: 34px;
-    padding-top: 19px;
+    font-size: 33px;
+    padding-top: 11px;
+    padding-left: 20px;
     padding-bottom: 2px;
 }
 
 
 .date-time .time
 {
+    font-family: 'Zen Old Mincho', serif;
     position: absolute;
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     text-align: center;
-    padding-left: 32px;
+    padding-left: 20px;
     padding-right: 101px;
     padding-bottom: 3px;
 }
@@ -85,7 +84,7 @@ body
 {
     display: flex;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 50px;
     margin-left: 130px;
     margin-right: 50px;
 }
@@ -280,4 +279,52 @@ body
     background: rgba(0, 0, 0, 0.63);
     border: 3px solid #675936;
     border-radius: 10px;
+}
+
+
+.future-forecast .day
+{
+    font-family: 'Aclonica', sans-serif;
+    position:absolute;
+    text-align: center;
+    width: 137px;
+    height: 20px;
+    left: 20px;
+    top: 15px;
+
+    background: #3A3016;
+    border-radius: 80px;
+}
+
+
+.future-forecast .img
+{
+    position:absolute;
+    text-align: center;
+    width: 137px;
+    height: 20px;
+    left: 20px;
+    top: 62px;
+}
+
+
+.future-forecast .temp-d
+{
+    position:absolute;
+    text-align: center;
+    width: 137px;
+    height: 20px;
+    left: 20px;
+    top: 105px;
+}
+
+
+.future-forecast .temp-n
+{
+    position:absolute;
+    text-align: center;
+    width: 137px;
+    height: 20px;
+    left: 20px;
+    top: 125px;
 }

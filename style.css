@@ -169,7 +169,7 @@ body
 }
 
 
-.today
+.weather-forecast-monday
 {
     box-sizing: border-box;
     position: absolute;
@@ -184,7 +184,7 @@ body
 }
 
 
-.weather-forecast
+.weather-forecast-tuesday
 {
     box-sizing: border-box;
     position: absolute;
@@ -199,7 +199,7 @@ body
 }
 
 
-.weather-forecast-item-1
+.weather-forecast-wednesday
 {
     box-sizing: border-box;
     position: absolute;
@@ -214,7 +214,7 @@ body
 }
 
 
-.weather-forecast-item-2
+.weather-forecast-thursday
 {
     box-sizing: border-box;
     position: absolute;
@@ -229,7 +229,7 @@ body
 }
 
 
-.weather-forecast-item-3
+.weather-forecast-friday
 {
     box-sizing: border-box;
     position: absolute;
@@ -244,7 +244,7 @@ body
 }
 
 
-.weather-forecast-item-4
+.weather-forecast-saturday
 {
     box-sizing: border-box;
     position: absolute;
@@ -259,7 +259,7 @@ body
 }
 
 
-.weather-forecast-item-5
+.weather-forecast-sunday
 {
     box-sizing: border-box;
     position: absolute;

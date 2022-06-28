@@ -70,8 +70,12 @@ body
 
 .now-icon img
 {
+<<<<<<< HEAD
     width: 100px;
     height: auto;
+=======
+    width: auto;
+>>>>>>> 31153ee6638266a7a6d379b87bdb88e6adb376e8
 }
 
 

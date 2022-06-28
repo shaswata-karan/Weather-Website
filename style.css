@@ -43,21 +43,6 @@ body
 }
 
 
-.date-time
-{
-    box-sizing: border-box;
-    position: absolute;
-    width: 300px;
-    height: 150px;
-    left: 300px;
-    top: 50px;
-
-    background: rgba(0, 0, 0, 0.63);
-    border: 3px solid #675936;
-    border-radius: 10px;
-}
-
-
 .date-time .date
 {
     font-family: 'Abhaya Libre SemiBold';
@@ -107,14 +92,30 @@ body
 }
 
 
+.date-time
+{
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    height: 160px;
+    left: 300px;
+    top: 44px;
+
+    background: rgba(0, 0, 0, 0.63);
+    border: 3px solid #675936;
+    border-radius: 10px;
+}
+
+
 .others
 {
     box-sizing: border-box;
     position: absolute;
     width: 300px;
-    height: 150px;
-    left: 620px;
-    top: 50px;
+    height: 160px;
+    left: 650px;
+    top: 44px;
+
     background: rgba(0, 0, 0, 0.63);
     border: 3px solid #675936;
     border-radius: 10px;
@@ -126,9 +127,9 @@ body
     box-sizing: border-box;
     position: absolute;
     width: 300px;
-    height: 150px;
-    left: 950px;
-    top: 50px;
+    height: 160px;
+    left: 1000px;
+    top: 44px;
 
     background: rgba(0, 0, 0, 0.63);
     border: 3px solid #675936;
@@ -142,8 +143,8 @@ body
     position: absolute;
     width: 1370px;
     height: 252px;
-    left: 64px;
-    top: 200px;
+    left: 35px;
+    top: 220px;
 
     background: rgba(53, 45, 23, 0.74);
     border: 3px solid #A47D19;
@@ -158,7 +159,7 @@ body
     position: absolute;
     width: 1370px;
     height: 252px;
-    left: 64px;
+    left: 35px;
     top: 500px;
 
     background: rgba(53, 45, 23, 0.74);
@@ -174,8 +175,8 @@ body
     position: absolute;
     width: 182px;
     height: 160px;
-    left: 25px;
-    top: 45px;
+    left: 15px;
+    top: 44px;
 
     background: rgba(0, 0, 0, 0.63);
     border: 3px solid #675936;
@@ -189,8 +190,8 @@ body
     position: absolute;
     width: 182px;
     height: 160px;
-    left: 219px;
-    top: 45px;
+    left: 208px;
+    top: 44px;
 
     background: rgba(0, 0, 0, 0.63);
     border: 3px solid #675936;
@@ -204,9 +205,9 @@ body
     position: absolute;
     width: 182px;
     height: 160px;
-    left: 187px;
+    left: 189px;
     top: -2px;
- 
+
     background: rgba(0, 0, 0, 0.63);
     border: 3px solid #675936;
     border-radius: 10px;
@@ -219,7 +220,7 @@ body
     position: absolute;
     width: 182px;
     height: 160px;
-    left: 377px;
+    left: 379px;
     top: -2px;
 
     background: rgba(0, 0, 0, 0.63);
@@ -249,7 +250,7 @@ body
     position: absolute;
     width: 182px;
     height: 160px;
-    left: 765px;
+    left: 760px;
     top: -2px;
 
     background: rgba(0, 0, 0, 0.63);
@@ -264,7 +265,7 @@ body
     position: absolute;
     width: 182px;
     height: 160px;
-    left:950px;
+    left:952px;
     top: -2px;
 
     background: rgba(0, 0, 0, 0.63);

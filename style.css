@@ -70,12 +70,10 @@ body
 
 .now-icon img
 {
-<<<<<<< HEAD
-    width: 100px;
+    padding-left: 33px;
+    padding-top: 13px;
+    width: 250px;
     height: auto;
-=======
-    width: auto;
->>>>>>> 31153ee6638266a7a6d379b87bdb88e6adb376e8
 }
 
 
@@ -308,14 +306,13 @@ body
 }
 
 
-.future-forecast .img
+.future-forecast .img img
 {
     position:absolute;
     text-align: center;
-    width: 137px;
-    height: 20px;
-    left: 20px;
-    top: 37px;
+    width: 80px;
+    padding-left: 50px;
+    padding-top: 30px;
 }
 
 

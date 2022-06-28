@@ -68,9 +68,10 @@ body
 }
 
 
-.now-icon
+.now-icon img
 {
-    
+    width: 100px;
+    height: auto;
 }
 
 

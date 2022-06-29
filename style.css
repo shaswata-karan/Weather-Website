@@ -155,6 +155,72 @@ body
 }
 
 
+.others .weather-item .h
+{
+    position: absolute;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+
+.others .weather-item .h-v
+{
+    position: absolute;
+    display: flex;
+    padding-left: 185px;
+    padding-bottom: 3px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+
+.others .weather-item .p
+{
+    position: absolute;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    padding-top: 62px;
+    font-size: 20px;
+}
+
+
+.others .weather-item .p-v
+{
+    position: absolute;
+    display: flex;
+    padding-left: 185px;
+    padding-bottom: 3px;
+    padding-top: 62px;
+    font-size: 18px;
+}
+
+
+.others .weather-item .w
+{
+    position: absolute;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 110px;
+    font-size: 20px;
+}
+
+
+.others .weather-item .w-s
+{
+    position: absolute;
+    display: flex;
+    padding-left: 188px;
+    padding-bottom: 3px;
+    padding-top: 110px;
+    font-size: 18px;
+}
+
+
 .sunrise-sunset
 {
     box-sizing: border-box;
@@ -167,6 +233,50 @@ body
     background: rgba(0, 0, 0, 0.63);
     border: 3px solid #675936;
     border-radius: 10px;
+}
+
+
+.sunrise-sunset .rise
+{
+    position: absolute;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    padding-top: 29px;
+    font-size: 25px;
+}
+
+
+.sunrise-sunset .rise-t
+{
+    position: absolute;
+    display: flex;
+    padding-left: 166px;
+    padding-bottom: 3px;
+    padding-top: 29px;
+    font-size: 22px;
+}
+
+
+.sunrise-sunset .set
+{
+    position: absolute;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 95px;
+    font-size: 25px;
+}
+
+
+.sunrise-sunset .set-t
+{
+    position: absolute;
+    display: flex;
+    padding-left: 166px;
+    padding-bottom: 3px;
+    padding-top: 95px;
+    font-size: 22px;
 }
 
 
@@ -193,7 +303,7 @@ body
     width: 182px;
     height: 160px;
     left: 15px;
-    top: 44px;
+    top: 42px;
 
     background: rgba(0, 0, 0, 0.63);
     border: 3px solid #675936;
@@ -208,7 +318,7 @@ body
     width: 182px;
     height: 160px;
     left: 208px;
-    top: 44px;
+    top: 42px;
 
     background: rgba(0, 0, 0, 0.63);
     border: 3px solid #675936;
@@ -223,7 +333,7 @@ body
     width: 182px;
     height: 160px;
     left: 189px;
-    top: -2px;
+    top: -4px;
 
     background: rgba(0, 0, 0, 0.63);
     border: 3px solid #675936;
@@ -238,7 +348,7 @@ body
     width: 182px;
     height: 160px;
     left: 379px;
-    top: -2px;
+    top: -4px;
 
     background: rgba(0, 0, 0, 0.63);
     border: 3px solid #675936;
@@ -253,7 +363,7 @@ body
     width: 182px;
     height: 160px;
     left: 570px;
-    top: -2px;
+    top: -4px;
 
     background: rgba(0, 0, 0, 0.63);
     border: 3px solid #675936;
@@ -268,7 +378,7 @@ body
     width: 182px;
     height: 160px;
     left: 760px;
-    top: -2px;
+    top: -4px;
 
     background: rgba(0, 0, 0, 0.63);
     border: 3px solid #675936;
@@ -283,7 +393,7 @@ body
     width: 182px;
     height: 160px;
     left:952px;
-    top: -2px;
+    top: -4px;
 
     background: rgba(0, 0, 0, 0.63);
     border: 3px solid #675936;
@@ -300,6 +410,7 @@ body
     height: 20px;
     left: 20px;
     top: 15px;
+    padding-top: 2px;
 
     background: #3A3016;
     border-radius: 80px;
